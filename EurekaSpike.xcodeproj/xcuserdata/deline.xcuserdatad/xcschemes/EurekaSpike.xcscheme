@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "73336C301EF28AF50046C2DF"
+               BuildableName = "EurekaSpike.app"
+               BlueprintName = "EurekaSpike"
+               ReferencedContainer = "container:EurekaSpike.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "73336C441EF28AF50046C2DF"
+               BuildableName = "EurekaSpikeTests.xctest"
+               BlueprintName = "EurekaSpikeTests"
+               ReferencedContainer = "container:EurekaSpike.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "73336C4F1EF28AF50046C2DF"
+               BuildableName = "EurekaSpikeUITests.xctest"
+               BlueprintName = "EurekaSpikeUITests"
+               ReferencedContainer = "container:EurekaSpike.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "73336C301EF28AF50046C2DF"
+            BuildableName = "EurekaSpike.app"
+            BlueprintName = "EurekaSpike"
+            ReferencedContainer = "container:EurekaSpike.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "73336C301EF28AF50046C2DF"
+            BuildableName = "EurekaSpike.app"
+            BlueprintName = "EurekaSpike"
+            ReferencedContainer = "container:EurekaSpike.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "73336C301EF28AF50046C2DF"
+            BuildableName = "EurekaSpike.app"
+            BlueprintName = "EurekaSpike"
+            ReferencedContainer = "container:EurekaSpike.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
